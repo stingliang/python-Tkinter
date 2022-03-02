@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# @File        : first-tkinter.py
+# @File        : first_tkinter.py
 # @CreateDate  : 2022-03-01
 # @Author      : stingliang
 # @Github      : https://github.com/stingliang
