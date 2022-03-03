@@ -33,7 +33,7 @@ def normal_window():
     # 设置窗口被允许最小调整的范围，与resizble()冲突
     window.minsize(50, 50)
     # 更改左上角窗口的的icon图标,加载C语言中文网logo标
-    window.iconbitmap(r'C:\Users\liangrui\Pictures\Camera Roll\sun.ico')
+    window.iconbitmap('../data/sun.ico')
     # 添加文本内容,并对字体添加相应的格式 font(字体,字号,"字体类型")
     text = tk.Label(window, text="stingliang，网址：wowsting.club", bg="yellow", fg="red",
                     font=('Times_new_roman', 15, 'bold italic underline'))
@@ -68,7 +68,7 @@ def button_command():
     window = tk.Tk()
     window.title('stingliang')
     window.geometry('300x300')
-    window.iconbitmap(r'C:\Users\liangrui\Pictures\Camera Roll\sun.ico')
+    window.iconbitmap('../data/sun.ico')
 
     # 定义回调函数
     def callback():
@@ -83,7 +83,7 @@ def button_command():
 def window_pisition():
     window = tk.Tk()
     window.title('stingliang')
-    window.iconbitmap(r'C:\Users\liangrui\Pictures\Camera Roll\sun.ico')
+    window.iconbitmap('../data/sun.ico')
     # 设置窗口大小变量
     width = 300
     height = 300

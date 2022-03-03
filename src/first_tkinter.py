@@ -13,7 +13,7 @@ root_window.title('stingliang')
 # 设置窗口大小:宽x高,注,此处不能为 "*",必须使用 "x"
 root_window.geometry('450x300')
 # 更改左上角窗口的的icon图标,加载C语言中文网logo标
-root_window.iconbitmap(r'C:\Users\liangrui\Pictures\Camera Roll\sun.ico')
+root_window.iconbitmap('../resource/sun.ico')
 # 设置主窗口的背景颜色,颜色值可以是英文单词，或者颜色值的16进制数,除此之外还可以使用Tk内置的颜色常量
 root_window["background"] = "#C9C9C9"
 # 添加文本内,设置字体的前景色和背景色，和字体类型、大小
